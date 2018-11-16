@@ -1,5 +1,5 @@
-average_cc_to_fc.f90
-divergence.cpp
-divergence_F.H
-divop_mod.f90
-eb_wallflux_mod.f90
+add_sources(average_cc_to_fc.f90)
+add_sources(divergence.cpp)
+add_sources(divergence_F.H)
+add_sources(divop_mod.f90)
+add_sources(eb_wallflux_mod.f90)
