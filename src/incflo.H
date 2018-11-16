@@ -356,6 +356,12 @@ private:
     Real papa_reg = 0.0;
     Real eta_0 = 0.0;
 
+    // Special case initial conditions 
+    // 0: no special case
+    // 1: periodic vortices
+    // 2: poiseuille flow
+    int ic_case = 0;
+
 	// Options to control MLMG behavior
     // TODO: get this out of here , should not be member functions
 	int mg_verbose = 0;

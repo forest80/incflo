@@ -1,0 +1,8 @@
+add_sources(bc_fill_nd.F90)
+add_sources(bc_mod.f90)
+add_sources(boundary_conditions.cpp)
+add_sources(boundary_conditions_F.H)
+add_sources(fill_bc0.f90)
+add_sources(set_mac_velocity_bcs.f90)
+add_sources(set_pressure_bcs.f90)
+add_sources(set_velocity_bcs.f90)

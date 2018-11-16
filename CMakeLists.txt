@@ -12,9 +12,9 @@ project(incflo LANGUAGES CXX Fortran)
 include("${CMAKE_BINARY_DIR}/problem.cmake")
 
 if(DEBUG)
-    set(CMAKE_BUILD_TYPE "DEBUG")
+    set(INCFLO_BUILD_TYPE "DEBUG")
 else()
-    set(CMAKE_BUILD_TYPE "RELEASE")
+    set(INCFLO_BUILD_TYPE "RELEASE")
 endif()
 
 include(incflo_utils)

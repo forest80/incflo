@@ -130,6 +130,8 @@ void incflo::ReadParameters()
         {
             amrex::Abort("Unknown fluid_model! Choose either newtonian, powerlaw, bingham, hb, smd");
         }
+        // Special case initial conditions if > 0
+        pp.query("ic_case", ic_case);
 
 		// Option to control MLMG behavior
 		pp.query("mg_verbose", mg_verbose);
